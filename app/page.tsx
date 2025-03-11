@@ -12,7 +12,7 @@ export default function HomePage() {
           transition={{ duration: 1 }}
           className="text-white text-5xl font-bold mb-4"
         >
-          Hi! I'm Ishan Mukherjee!
+          Hi! I&apos;m Ishan Mukherjee!
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
