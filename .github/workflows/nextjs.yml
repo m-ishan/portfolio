@@ -79,6 +79,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+      - name: Cache
+        uses: actions/cache@v4.2.2
 
   # Deployment job
   deploy:
