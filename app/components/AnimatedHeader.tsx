@@ -7,7 +7,7 @@ export default function AnimatedHeader() {
     <motion.header
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ delay: 3, duration: 0.3 }}
+      transition={{ delay: 2, duration: 0.5 }}
       className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md shadow-md z-50"
     >
       <nav className="container mx-auto flex items-center justify-between p-4">
