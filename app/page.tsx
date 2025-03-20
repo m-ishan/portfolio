@@ -24,20 +24,22 @@ export default function HomePage() {
         </motion.p>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="min-h-screen container mx-auto px-4 py-12">
+      <section id="about" className="min-h-screen container mx-auto px-4 py-12 scroll-mt-20">
         <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
-        <p className="text-gray-200 mb-4">
-          I am a Computer Science student at Purdue University focusing on Software Engineering and Machine Intelligence.
-          I have hands-on experience with full-stack development, compiler design, and robotics.
-        </p>
-        <p className="text-gray-200">
-          My projects include a Task Manager Website, an Assembly x86-64 Compiler, and a Rent-A-House Application.
-        </p>
+        <div className="bg-black/50 shadow-lg rounded-lg p-6">
+          <p className="text-gray-200 mb-4">
+            I am a Computer Science student at Purdue University focusing on Software Engineering and Machine Intelligence.
+            I have hands-on experience with full-stack development, compiler design, and robotics.
+          </p>
+          <p className="text-gray-200">
+            My projects include a Task Manager Website, an Assembly x86-64 Compiler, and a Rent-A-House Application.
+          </p>
+        </div>
       </section>
 
+
       {/* Projects Section */}
-      <section id="projects" className="min-h-screen container mx-auto px-4 py-12">
+      <section id="projects" className="min-h-screen container mx-auto px-4 py-12 scroll-mt-20">
         <h2 className="text-3xl font-bold text-white mb-6">Projects</h2>
         <div className="grid gap-6 md:grid-cols-2">
           {/* Project Card 1 */}
@@ -68,30 +70,32 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="min-h-screen container mx-auto px-4 py-12">
+      <section id="contact" className="min-h-screen container mx-auto px-4 py-12 scroll-mt-20">
         <h2 className="text-3xl font-bold text-white mb-6">Contact Me</h2>
-        <p className="text-gray-200 mb-4">
-          Feel free to reach out for collaborations, questions, or just to say hi!
-        </p>
-        <ul className="text-gray-200">
-          <li>
-            Email:{' '}
-            <a href="mailto:ishan.m1809@gmail.com" className="text-red-500">
-              ishan.m1809@gmail.com
-            </a>
-          </li>
-          <li>
-            LinkedIn:{' '}
-            <a
-              href="https://www.linkedin.com/in/ishan-mukherjee-8277aa2aa/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-red-500"
-            >
-              Ishan Mukherjee
-            </a>
-          </li>
-        </ul>
+        <div className="bg-black/50 shadow-lg rounded-lg p-6">
+          <p className="text-gray-200 mb-4">
+            Feel free to reach out for collaborations, questions, or just to say hi!
+          </p>
+          <ul className="text-gray-200">
+            <li>
+              Email:{' '}
+              <a href="mailto:ishan.m1809@gmail.com" className="text-red-500">
+                ishan.m1809@gmail.com
+              </a>
+            </li>
+            <li>
+              LinkedIn:{' '}
+              <a
+                href="https://www.linkedin.com/in/ishan-mukherjee-8277aa2aa/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-red-500"
+              >
+                Ishan Mukherjee
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </>
   );
